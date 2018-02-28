@@ -3,4 +3,5 @@ addElementToBeginningofArray(array,element){
   return [element, ...array]
 }
 destructivelyAddElemntToBeginningOfArray(array,element){
-return array.unshift()
+return array.unshift(element)
+}
